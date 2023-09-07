@@ -1,11 +1,23 @@
 [
   {
     "name":"apple",
-    "className":"com.doudou.ioc.entity.Apple"
+    "className":"com.doudou.ioc.model.Apple"
   },
   {
     "name":"banana",
-    "className":"com.doudou.ioc.entity.Banana"
+    "className":"com.doudou.ioc.model.Banana"
+  },
+  {
+    "name":"robot",
+    "className":"com.xilidou.framework.ioc.model.Robot"
+  },
+  {
+    "name":"hand",
+    "className":"com.xilidou.framework.ioc.model.Hand"
+  },
+  {
+    "name":"mouth",
+    "className":"com.xilidou.framework.ioc.model.Mouth"
   }
 ]
 
