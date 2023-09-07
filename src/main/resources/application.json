@@ -1,32 +1,51 @@
 [
   {
-    "name":"apple",
-    "className":"com.doudou.ioc.model.Apple"
+    "name": "apple",
+    "className": "com.doudou.ioc.model.Apple"
   },
   {
-    "name":"banana",
-    "className":"com.doudou.ioc.model.Banana"
+    "name": "banana",
+    "className": "com.doudou.ioc.model.Banana"
   },
   {
-    "name":"robot",
-    "className":"com.xilidou.framework.ioc.model.Robot"
+    "name": "robot",
+    "className": "com.xilidou.framework.ioc.model.Robot"
   },
   {
-    "name":"hand",
-    "className":"com.xilidou.framework.ioc.model.Hand"
+    "name": "hand",
+    "className": "com.xilidou.framework.ioc.model.Hand"
   },
   {
-    "name":"mouth",
-    "className":"com.xilidou.framework.ioc.model.Mouth"
+    "name": "mouth",
+    "className": "com.xilidou.framework.ioc.model.Mouth"
   },
   {
-    "name":"a",
-    "className":"com.xilidou.framework.ioc.model.circle.A"
+    "name": "beanA",
+    "className": "com.xilidou.framework.ioc.model.circle.BeanA",
+    "propertyArgs": [
+      {
+        "name": "code",
+        "value": "1111"
+      },
+      {
+        "name": "beanB",
+        "ref": "beanB"
+      }
+    ]
   },
-
   {
-    "name":"b",
-    "className":"com.xilidou.framework.ioc.model.circle.B"
+    "name": "beanB",
+    "className": "com.xilidou.framework.ioc.model.circle.BeanB",
+    "propertyArgs": [
+      {
+        "name": "code",
+        "value": "2222"
+      },
+      {
+        "name": "beanA",
+        "ref": "beanA"
+      }
+    ]
   }
 ]
 

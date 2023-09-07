@@ -2,7 +2,7 @@ package com.xilidou.framework.ioc;
 
 import com.xilidou.framework.ioc.core.JsonApplicationContext;
 import com.xilidou.framework.ioc.model.Robot;
-import com.xilidou.framework.ioc.model.circle.A;
+import com.xilidou.framework.ioc.model.circle.BeanA;
 
 /**
  * @author adorabled4
@@ -18,9 +18,9 @@ public class Main {
     static void circleDepeTest() throws Exception {
         JsonApplicationContext applicationContext = new JsonApplicationContext("application.json");
         applicationContext.init();
-        A a = (A)applicationContext.getBean("a");
-        a.showB();
-        a.getB().showA();
+        BeanA beanA = (BeanA)applicationContext.getBean("beanA");
+        beanA.showB();
+        System.out.println(beanA);
     }
 
     /**
