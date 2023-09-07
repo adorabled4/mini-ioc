@@ -18,6 +18,15 @@
   {
     "name":"mouth",
     "className":"com.xilidou.framework.ioc.model.Mouth"
+  },
+  {
+    "name":"a",
+    "className":"com.xilidou.framework.ioc.model.circle.A"
+  },
+
+  {
+    "name":"b",
+    "className":"com.xilidou.framework.ioc.model.circle.B"
   }
 ]
 
