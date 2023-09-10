@@ -8,7 +8,7 @@ import lombok.ToString;
  * @className B
  * @date : 2023/09/07/ 14:57
  **/
-//@Data
+//@Data // 这里注意不能使用@Data , 否则会发生栈溢出 https://blog.csdn.net/liubenlong007/article/details/111993916
 public class BeanB {
 
     BeanA beanA;
